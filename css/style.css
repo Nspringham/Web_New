@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
+
+*{margin: 0; padding: 0; border: 0;}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	/*border: 1px solid blue;*/
+	/*margin: 5px 5px 5px 5px;*/
+}
+
+.wrapper{
+	/*border: 1px solid red;*/
+    left:0;
+    right:0;
+    /*margin: 5px;*/
+}
+
+/* BANNER INTRO */
+
+.top_holder{
+	/*border: 1px solid green;*/
+	/*margin: 5px;*/
+	background: url('patagonia.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 15px;
+    height: 940px;
+    color: white;
+    text-align: center;
+}
+.top_holder>h1{
+	padding-top: 300px;
+}
+.top_holder>h3{
+	padding-top: 30px;
+}
+.project_box{
+	/*border: 1px solid red;*/
+	justify-content: center;
+}
+.project_button{
+	padding: 5px;
+	margin-top: 25px;
+	border: 1px solid #FFAF44;
+	border-radius: 6px;
+	display: inline-block; /* this makes sure the div width only fills the size of the text*/
+	transition: background-color 1s ease;
+	opacity: 0.5;
+}
+.project_button:hover {
+	background-color: #FFAF44;
+	opacity: 0.8;
+}
+.down_arrow{
+	margin-top: 250px; 
+}
+
+
+
+/* SKILLS SECTION */
+
+
+.middle{
+	/*border: 1px solid pink;*/
+	background: #dee6ec;
+	/*margin: 5px;*/
+	height: 400px;
+	text-align: center;
+}
+	.logo_sector {
+		/*border :1px solid pink;*/
+		display: block;
+		margin: auto;
+		text-align: center;
+		padding: 15px;
+		max-width: 800px;
+	}
+	.logo_sector>h1{
+		padding-top: 50px;
+		padding-bottom: 60px;
+		font-size: 30PX;
+		letter-spacing: 5px;
+		
+	}
+	.logo_box img{
+		padding-right: 50px;
+	}
+
+
+/* PROJECTS SECTION */
+
+.bottom{
+	height: 560px;
+	text-align: center;
+	justify-content: center;
+	background-color: #7F7F7F;
+}
+.projects_header{
+	padding-top: 30px;
+	padding-bottom: 25px;
+	color: #C9C7C6;
+}
+.flex-container{
+	/*border :1px solid red;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 70px;
+	background-color: #A9A7A7;
+	width: 63%;
+	height: 58%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.flex-container>div{
+	border :1px solid grey;
+	background-color: white;
+	width: 225px;
+	height: 225px;
+  	margin: 45px 25px 45px 25px;/
+  	text-align: center;
+  	font-size: 12px;
+  	padding: 5px;
+}
+.flex-container>div>h2{
+	padding-bottom: 10px;
+}
+.flex-container>div>p{
+	height: 60px;
+	padding-top: 10px;
+	padding: 10px 5px 0px 5px;
+}
+.project-logo{
+	padding-top:15px;
+	padding-bottom: 5px;
+}
+
+
+
+/* FOOTER */
+
+.footer{
+	height: 75px;
+	text-align: center;
+	background-color: #565656;
+}
+.footer-icons{
+	padding-top: 5px;
+}
+.footer-icons>a{
+	padding: 5px 9px 0px 9px;
+	transition: color 1s ease;
+	color: #B2B2B2;
+	
+}
+.footer-icons>a:hover{
+	color: #C25A10;
+}
+.footer>p{
+	color: #B2B2B2; 
+	font-size: 14px;
+
+}
