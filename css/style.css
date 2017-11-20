@@ -44,6 +44,8 @@ body{
 }
 .project_button{
 	padding: 5px;
+	text-decoration: none;
+	color: white;
 	margin-top: 25px;
 	border: 1px solid #FFAF44;
 	border-radius: 6px;
@@ -60,19 +62,17 @@ body{
 }
 
 
-
 /* SKILLS SECTION */
 
 
 .middle{
 	/*border: 1px solid pink;*/
 	background: #dee6ec;
-	/*margin: 5px;*/
-	height: 400px;
+
+	min-height: 400px;
 	text-align: center;
 }
 	.logo_sector {
-		/*border :1px solid pink;*/
 		display: block;
 		margin: auto;
 		text-align: center;
@@ -94,7 +94,7 @@ body{
 /* PROJECTS SECTION */
 
 .bottom{
-	height: 560px;
+	min-height: 560px;
 	text-align: center;
 	justify-content: center;
 	background-color: #7F7F7F;
@@ -111,7 +111,7 @@ body{
 	margin-bottom: 70px;
 	background-color: #A9A7A7;
 	width: 63%;
-	height: 58%;
+	min-height: 58%;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -145,12 +145,12 @@ body{
 /* FOOTER */
 
 .footer{
-	height: 75px;
+	height: 85px;
 	text-align: center;
 	background-color: #565656;
 }
 .footer-icons{
-	padding-top: 5px;
+	padding-top: 10px;
 }
 .footer-icons>a{
 	padding: 5px 9px 0px 9px;
